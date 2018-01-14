@@ -1,7 +1,7 @@
 # About this class
 
 This repo tracks information and policies for our
-class: Yale's CPSC213/MGT659 in the Fall of 2018.
+class: Yale's CPSC213/MGT659 in the Spring of 2018.
 
 ## General info
 
