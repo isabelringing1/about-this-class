@@ -24,6 +24,27 @@ if you feel these documents are lacking, please open an
 issue. Finally, because our git repo is hosted on GitHub, you
 can easily receive push notifications of changes to this repo.
 
+# Overview
+
+This course introduces Yale students to the computer science and
+entrepreneurship knowledge used in the construction of consumer web
+start-ups. The computer science concepts we will cover include data
+storage, networking, client-server architectures, mobile computing,
+and security. The entrepreneurship concepts include evidence-based
+entrepreneurship (or "the Lean Startup"), customer acquisition, app
+analytics, as well as law and finance as they apply to entrepreneurship.
+This course is "flipped" in the sense that class members complete
+both readings and a quiz prior to each class, such that in class
+our time may be spent on activities and discussion. The principal
+deliverables in the course are a series of web applications developed
+independently by each student, and a semester long project completed
+in teams. Each team's class project
+will be a consumer web application. With rare exception these will
+be mobile-first and have some kind of social component. These apps
+will be build using a modern web stack, the particular components
+of which (database, server language, client frameworks) are at the
+discretion of each class member or team to decide for themselves.
+
 ## Sections
 
 The class information and policies are divided into the
