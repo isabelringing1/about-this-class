@@ -5,6 +5,8 @@ class: Yale's CPSC213/MGT659 in the Spring of 2018.
 
 ## General info
 
+| Key | Value |
+|--------|------|
 | Course number | CPSC213 & MGT659 |
 | Units | 4 units in Yale College and equivalent elsewhere |
 | Enrollment | Open to all students from all schools at Yale |
