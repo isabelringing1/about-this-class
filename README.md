@@ -40,6 +40,8 @@ following sections.
 * [Faculty & TA (staff) contact info](staff-contact.md)
 * [Office hours](office-hours.md)
 * [Grading](grading.md)
+* [General policies](general-policies.md)
+* [Class project](class-project.md)
 * [Quizzes (why we have them and how to take them)](quizzes.md)
 
 ## How to use this document/repo
