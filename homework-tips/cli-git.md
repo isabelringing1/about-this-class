@@ -1,0 +1,14 @@
+- You'll need git installed if you don't already have it.
+- If you're on a Windows machine, the grading code likely won't run on your machine. Swing by office hours and we'll get you set up with a virtual environment.
+- The grading code will be happier if you create a project folder first and download the grading code and clone the git repo into that folder -- structure will end up looking like this:
+cli-assignment
+  - cpsc213hw1
+  - movie-data
+  - assignment_cli-and-git-jacobbendicksen
+    - README.md
+    - situation.txt
+    - movies
+        - movie-goers.txt
+        - ...other files
+- Don't create another submission folder within the git repo -- use the repo for that.
+- The elixir-jose question is actually looking for 7-letter hashes, not 6-letter hashes.
