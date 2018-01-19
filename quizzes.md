@@ -18,7 +18,7 @@ To use the API, there are a few steps:
 5. Show the quiz questions and choices.
 6. Submit your choice for each question.
 
-You can do this using any tools you like. For example, it is easy to write a shell, JavaScript, Ruby, or Python script for interacting with the class API. You can also use programs like Postman, which give you a GUI for interacting with APIs. Here, I am going to show you to how do this all "by hand" on the command line using CURL, a common command line HTTP client you will find available on most operating systems.
+You can do this using any tools you like. For example, it is easy to write a shell, JavaScript, Ruby, or Python script for interacting with the class API. You can also use programs like Postman, which give you a GUI for interacting with APIs. Here, I am going to show you to how do this all "by hand" on the command line using CURL, a common command line HTTP client you will find available on most operating systems. Using CURL, your CLI session will end up looking like [this](https://asciinema.org/a/0RwxP8TNQWHT9Bt6ZTPUM36gV).
 
  ## Get your JWT
 
