@@ -279,4 +279,5 @@ the database if you omit them.
 Pay attention to the quiz `durations`---you have a limited time to complete
 your quiz once you create a quiz submission. All you need to do is use the
 API to select your desired answers. We will *likely* create a web interface
-for this in the coming weeks.
+for this in the coming weeks. In the meantime, you can use [this shell script](https://gist.github.com/jacobbendicksen/b2845b0c63e279c086eeabd67daf55f8)
+written by the TAs, though we make no promises as to its functionality.
