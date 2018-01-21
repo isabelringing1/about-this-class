@@ -12,3 +12,6 @@ cli-assignment
         - ...other files
 - Don't create another submission folder within the git repo -- use the repo for that.
 - The elixir-jose question is actually looking for 7-letter hashes, not 6-letter hashes.
+- Some grading code links are broken, try these if it's not working for you:
+  - Mac: https://s3.amazonaws.com/kljensen/public/cpsc213hw1/mac/cpsc213hw1
+  - Linux: https://s3.amazonaws.com/kljensen/public/cpsc213hw1/linux/cpsc213hw1
