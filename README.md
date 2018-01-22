@@ -42,7 +42,8 @@ following sections.
 * [Grading](grading.md)
 * [General policies](general-policies.md)
 * [Class project](class-project.md)
-* [Quizzes (why we have them and how to take them)](quizzes.md)
+* [Quizzes (why we have them and how to submit them)](quizzes.md)
+* [Assignment submission](assignments.md)
 
 ## How to use this document/repo
 
