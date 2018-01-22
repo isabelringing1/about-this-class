@@ -114,7 +114,7 @@ with the following request, using the
 curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $JWT" -d '{"assignment_submission_id": 3, "assignment_field_id": 1, "body": "https://github.com/yale-cpsc-213-spring-2018/assignment_cli-and-git-janeqyalie"}' 'https://www.cpsc213.io/rest/assignment_field_submissions'
 ```
 
-You can [read more about here](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58), I could
+As you can [read more about here](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58), I could
 have put that JSON content in a file and sent it in the POST body, instead of writing it on 
 the command line. 
 
