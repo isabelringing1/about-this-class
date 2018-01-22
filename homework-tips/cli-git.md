@@ -15,3 +15,6 @@ cli-assignment
 - Some grading code links are broken, try these if it's not working for you:
   - Mac: https://s3.amazonaws.com/kljensen/public/cpsc213hw1/mac/cpsc213hw1
   - Linux: https://s3.amazonaws.com/kljensen/public/cpsc213hw1/linux/cpsc213hw1
+- The video mentions needing to fill out your class profile to tell us your
+  GitHub username. You don't need to do this. When you submit the assignment,
+  we'll know where you repo is.
