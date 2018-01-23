@@ -5,6 +5,7 @@
 	and you can also have cross-table references
 
 - Useful commands for exploring your SQL database:
+	- `sqlite3 foo.db` - enters the interactive shell for the database called `foo.db`
 	- `.exit` - quits the interactive shell
 	- `.schema` - shows the schema for the database's tables
 	- `.tables` - lists the tables in the database
