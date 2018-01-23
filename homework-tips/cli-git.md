@@ -18,3 +18,8 @@ cli-assignment
 - The video mentions needing to fill out your class profile to tell us your
   GitHub username. You don't need to do this. When you submit the assignment,
   we'll know where you repo is.
+- We created a new version of the grading code and eliminated two tests. You
+  can download the code for your platform here:
+  * https://s3.amazonaws.com/public.cpsc213.io/cpsc213hw1-linux-v2.0
+  * https://s3.amazonaws.com/public.cpsc213.io/cpsc213hw1-mac-v2.0
+  * https://s3.amazonaws.com/public.cpsc213.io/cpsc213hw1-windows-v2.0.exe
