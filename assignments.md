@@ -40,13 +40,13 @@ This should show output in JSON format akin to the following
 You can, of course, select only the fields you need to see in the API query, like
 
 ```
-curl -H "Authorization: Bearer $JWT" 'https://www.cpsc213.io/rest/assignments?slug=eq.cli-and-git&select=slug,is_open'
+curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8" 'https://www.cpsc213.io/rest/assignments?slug=eq.cli-and-git&select=slug,is_open'
 ```
 
 Now, let's see what "fields" are required for this assignment. 
 
 ```
-curl -H "Authorization: Bearer $JWT" 'https://www.cpsc213.io/rest/assignment_fields?assignment_slug=eq.cli-and-git'
+curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8" 'https://www.cpsc213.io/rest/assignment_fields?assignment_slug=eq.cli-and-git'
 ```
 
 The output should be similar to the following
@@ -79,13 +79,13 @@ the user id is 66. I'm going to create an assignment submission for this
 assignment as follows:
 
 ```
-curl -X POST -H "Authorization: Bearer $JWT" -d 'user_id=66&assignment_slug=cli-and-git' 'https://www.cpsc213.io/rest/assignment_submissions'
+curl -X POST -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8" -d 'user_id=66&assignment_slug=cli-and-git' 'https://www.cpsc213.io/rest/assignment_submissions'
 ```
 
 I could have done the same thing using the `application/json` content type as follows:
 
 ```
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $JWT" -d '{"user_id": 66, "assignment_slug": "cli-and-git"}' 'https://www.cpsc213.io/rest/assignment_submissions'
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8" -d '{"user_id": 66, "assignment_slug": "cli-and-git"}' 'https://www.cpsc213.io/rest/assignment_submissions'
 ```
 
 You can [read more about POSTing using curl here](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58).
@@ -95,7 +95,7 @@ Before doing so, I need to determine the `id` of the assignment submission I jus
 created. I can find that as such
 
 ```
- curl -H "Authorization: Bearer $JWT"  'https://www.cpsc213.io/rest/assignment_submissions'
+ curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8"  'https://www.cpsc213.io/rest/assignment_submissions'
 ```
 
  It returns just one row for me that looks like this:
@@ -111,7 +111,7 @@ with the following request, using the
 `application/json` content type
 
 ```
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $JWT" -d '{"assignment_submission_id": 3, "assignment_field_id": 1, "body": "https://github.com/yale-cpsc-213-spring-2018/assignment_cli-and-git-janeqyalie"}' 'https://www.cpsc213.io/rest/assignment_field_submissions'
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNiwicm9sZSI6InN0dWRlbnQiLCJpYXQiOjE1MTY3NTE1MTUsImV4cCI6MTUxNjkyNDMxNSwiaXNzIjoieWVsdWtlLWF1dGhhcHAifQ.vR44VSbPv9nPdm9wRPOP9YlkdkwyzH8GXjh7bDKD9S8" -d '{"assignment_submission_id": 3, "assignment_field_id": 1, "body": "https://github.com/yale-cpsc-213-spring-2018/assignment_cli-and-git-janeqyalie"}' 'https://www.cpsc213.io/rest/assignment_field_submissions'
 ```
 
 As you can [read more about here](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58), I could
