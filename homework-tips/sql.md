@@ -11,6 +11,7 @@
 	- `.tables` - lists the tables in the database
 
 - For this assignment:
+	- Make sure that you're creating the questions in a folder that doesn't currently exist. For example, I'd run `./cpsc213sqlhw create-questions jlb325 questions` as long as `questions` didn't exist.
 	- If everything looks about right but the tests aren't passing, 
 	make sure that you're sorting the results in the right order
 	- Don't forget the semicolon at the end of each SQL command!
